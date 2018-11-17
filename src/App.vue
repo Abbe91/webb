@@ -1,15 +1,20 @@
 <template>
+  
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>|
-      <router-link to="/T-shirt">T-shirt</router-link>|
-      
-      
-    </div>
-    <router-view/>
+    
+
+   <HeaderRed/>
+    
+ 
+     
+
+     <router-view/>
   </div>
+  
 </template>
+
+
+
 
 <style lang="scss">
 #app {
@@ -21,7 +26,7 @@
 }
 #nav {
    margin: 3px;
-    background-color:hsl(0, 20%, 88%);  
+    background-color:hsl(0, 12%, 92%);  
     
   padding: 30px;
   a {
@@ -30,6 +35,9 @@
     &.router-link-exact-active {
       color: #42b983;
     }
+  
   }
 }
+
+
 </style>

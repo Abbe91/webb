@@ -1,5 +1,20 @@
 <template>
   <div class="Tshirt">
+          <header> 
+
+        
+    <div id="nav">
+        <img  class="expris" src="../assets/express-logo.jpg" id="bildspel1" alt="swe2"/>
+        <router-link to="/">Home</router-link> |  
+        <router-link to="/about">About</router-link>|
+        <router-link to="/T-shirt">T-shirt</router-link>|
+        
+        
+      
+    </div>
+    
+               
+    </header>
     <h1>This is an T-shirt bage</h1>
     <img alt="T-shirt logo" src="../assets/t-shirt1.jpg">
     <section class="table-area">
@@ -121,14 +136,18 @@ export default {
     
   }
 }
+
 </script>
 <style lang="scss" scoped>
 
 @import '../css/style.scss';
 
-.Tshirt {
-  font-family: 'Courier New', Courier, monospace;
+// .Tshirt {
+//   font-family: 'Courier New', Courier, monospace;
+  
 
-}
+// }
+
+
 </style>
 
